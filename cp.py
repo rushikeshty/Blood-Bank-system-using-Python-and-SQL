@@ -3,7 +3,7 @@ import cx_Oracle
 import os
 
 connectString = os.getenv('con_connect')
-con = cx_Oracle.connect('system/rushi@2002@localhost:1521/orcle19')
+con = cx_Oracle.connect('system/<password>@localhost:1521/orcle19')
 cursor = con.cursor()
 root = Tk()
 root.configure(background='white')
